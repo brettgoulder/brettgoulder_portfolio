@@ -3,9 +3,10 @@ source :gemcutter
 gem 'sinatra', '>= 1.0'
 gem 'haml'
 gem 'rdiscount'
+gem 'tilt'
 
 group :tools do
-  gem 'yui-compreassor', :require => 'yui/compressor'
+  gem 'yui-compressor', :require => 'yui/compressor'
 end
 
 group :development do
