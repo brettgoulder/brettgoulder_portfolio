@@ -22,13 +22,15 @@ module BrettGoulder
           Tilt.new(portfolio.path).render(self)
         end
       end
-    
+      
       get '/' do
-        @portfolio_items = PortfolioItem.all
-        @portfolio = PortfolioItem.all[0]
-        haml :portfolio
+        haml :index
       end
-
+      
+      get '/contact/?' do
+        haml :contact
+      end
+      
       get '/portfolio/?' do
         @portfolio_items = PortfolioItem.all
         @portfolio = PortfolioItem.all[0]
