@@ -1,0 +1,22 @@
+/* @override http://localhost:9393/css/style.css */
+
+body {font-size: 62.5%; background: #649A76 url(/images/background.jpg) repeat-x; }
+
+p { font: 2em "chunk-1","chunk-2"; color: white;}
+h1 { padding: 20px 0; font: 8em "league-gothic-1","league-gothic-2"; color: #fff; }
+header nav li a { text-decoration: none; color: white; }
+header nav li a:hover { text-decoration: none; color: white; }
+#content nav li a { color: #487256; text-decoration: none;}
+#content nav li a:hover { color: #333;}
+#content h1 { font-size:4em;}
+
+
+header { position: relative; height: 140px;}
+header nav { position: absolute; top: 59px; right: 0;}
+header nav li { font: 4em "league-gothic-1","league-gothic-2"; display: inline; text-transform: lowercase; margin-right: 80px; }
+header nav li.last { margin-right: 0; }
+
+#content nav li { font: 5em "league-gothic-1","league-gothic-2";list-style: none; }
+
+footer { background-color: #487256; position:absolute; bottom:0; width: 100%;padding-top: 150px;}
+footer p { text-align: center; }

@@ -1,0 +1,4 @@
+%nav{:class => 'span-9'}
+  - @portfolio_items.each do |p|
+    %li 
+      %a{:href => portfolio_path(p), :title => p.title}= p.title
