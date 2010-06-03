@@ -25,6 +25,7 @@ module BrettGoulder
     
       get '/' do
         @portfolio_items = PortfolioItem.all
+        @portfolio = PortfolioItem.all[0]
         haml :portfolio
       end
 
