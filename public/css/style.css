@@ -2,11 +2,12 @@
 	http://localhost:9393/css/style.css
 */
 
-html, body { height: 100%;}
-body {font-size: 62.5%; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; background: #649A76 url(/images/background.jpg) repeat-x; }
+body {font-size: 62.5%; font-family: "league-gothic-1","league-gothic-2", "Helvetica Neue", Helvetica, Arial, sans-serif; background: #649A76 url(/images/background.jpg) top left repeat-x; }
 
-/* Typography */
-p { color: #F2FFF7; font: 1.8em chunk-1, chunk-2, "Lucinda Grande", Verdana, sans-serif; }
+/* @group Typography */
+
+p { font-weight: 200;color: #F2FFF7; font: 1.8em "ff-meta-web-pro-1","ff-meta-web-pro-2", "Lucinda Grande", Verdana, sans-serif; text-shadow: #487256 1px -1px 2px;}
+a { color: white; }
 h1 { padding: 20px 0; font: 8em "league-gothic-1","league-gothic-2", "Lucinda Grande", Verdana, sans-serif; color: #F2FFF7; }
 header nav li a { text-decoration: none; color: #F2FFF7; }
 header nav li a:hover { text-decoration: none; color: #F2FFF7; }
@@ -15,13 +16,15 @@ header nav li.last { margin-right: 0; }
 #content nav li { font: 5em "league-gothic-1","league-gothic-2"; list-style: none; }
 #content nav li a { color: #487256; text-decoration: none;}
 #content nav li a:hover { color: #333;}
+ul li { font-size: 1.8em; font: 1.8em "ff-meta-web-pro-1","ff-meta-web-pro-2", "Lucinda Grande", Verdana, sans-serif; color: white; }
+/* @end */
 
-/* Layout */
+/* @group Layout */
 
-#content h1 { font-size:4em;}
-
+#content h1 { font-size:4em; padding: 0; margin-bottom:0.1em;}
+#content a.url {font: 2em "league-gothic-1","league-gothic-2", "Lucinda Grande", Verdana, sans-serif; color:#F2FFF7; text-decoration:none;}
+#content p { margin-top: 1.5em; }
 header { position: relative; height: 140px;}
 header nav { position: absolute; top: 59px; right: 0;}
 
-footer { background-color: #487256; height: 150px; width: 100%;}
-footer p { font-size: 2em; position: relative; top: 115px; text-align: center; }
+/* @end */

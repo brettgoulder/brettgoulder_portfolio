@@ -13,18 +13,17 @@
     = partial "typekit"
     %title= @title || "Brett Goulder"
   %body
-    .container
-      %header{:class => 'spam-24 last'}
-        %h1{:class => 'span-8'}
-          Brett Goulder
-        %nav{:class => 'span-11 prepend-4 last'}
-          %li 
-            %a{:href => "/"} Home
-          %li
-            %a{:href => "/portfolio"} Portfolio
-          %li{:class => 'last'}
-            %a{:href => "/contact" } Contact
-      %section#content{:class => 'clear'}
-        = yield
-    %footer
-      %p &copy; Brett Goulder
+    .container-outer
+      .container
+        %header{:class => 'spam-24 last'}
+          %h1{:class => 'span-8'}
+            Brett Goulder
+          %nav{:class => 'span-11 prepend-4 last'}
+            %li 
+              %a{:href => "/"} Home
+            %li
+              %a{:href => "/portfolio"} Portfolio
+            %li{:class => 'last'}
+              %a{:href => "/contact" } Contact
+        %section#content{:class => 'clear'}
+          = yield
