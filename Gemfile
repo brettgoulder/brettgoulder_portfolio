@@ -4,7 +4,7 @@ gem 'sinatra', '>= 1.0'
 gem 'haml'
 gem 'rdiscount'
 gem 'tilt'
-gem 'redcloth'
+gem 'RedCloth'
 
 group :tools do
   gem 'yui-compressor', :require => 'yui/compressor'
