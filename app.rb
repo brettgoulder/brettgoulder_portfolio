@@ -31,6 +31,10 @@ module BrettGoulder
         haml :contact
       end
       
+      get '/reflection/?' do
+        haml :reflection
+      end
+      
       get '/portfolio/?' do
         @portfolio_items = PortfolioItem.all
         @portfolio = PortfolioItem.all[0]
