@@ -7,6 +7,7 @@ body {font-size: 62.5%; font-family: "league-gothic-1","league-gothic-2", "Helve
 p { font-weight: 200;color: #F2FFF7; font: 1.8em "ff-meta-web-pro-1","ff-meta-web-pro-2", "Lucinda Grande", Verdana, sans-serif; text-shadow: #487256 1px -1px 2px;}
 a { color: white; }
 h1 { padding: 20px 0; font: 8em "league-gothic-1","league-gothic-2", "Lucinda Grande", Verdana, sans-serif; color: #F2FFF7; }
+h3 { font-size:2em; color: white;}
 header nav li a { text-decoration: none; color: #F2FFF7; }
 header nav li a:hover { text-decoration: none; color: #F2FFF7; }
 header nav li { font: 4em "league-gothic-1","league-gothic-2"; display: inline; text-transform: lowercase; margin-right: 80px; }
@@ -15,6 +16,7 @@ header nav li.last { margin-right: 0; }
 #content nav li a { color: #487256; text-decoration: none;}
 header nav li a:hover, #content nav li a:hover { color: #333;}
 ul li { font-size: 1.8em; font: 1.8em "ff-meta-web-pro-1","ff-meta-web-pro-2", "Lucinda Grande", Verdana, sans-serif; color: white; }
+
 /* @end */
 
 /* @group Layout */

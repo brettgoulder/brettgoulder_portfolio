@@ -24,7 +24,9 @@ module BrettGoulder
       end
       
       get '/' do
-        haml :index
+        @portfolio_items = PortfolioItem.all
+        @portfolio = PortfolioItem.all[0]
+        haml(:portfolio)
       end
       
       get '/contact/?' do
