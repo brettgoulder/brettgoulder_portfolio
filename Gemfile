@@ -5,6 +5,7 @@ gem 'haml'
 gem 'rdiscount'
 gem 'tilt'
 gem 'RedCloth'
+gem 'compass'
 
 group :tools do
   gem 'yui-compressor', :require => 'yui/compressor'

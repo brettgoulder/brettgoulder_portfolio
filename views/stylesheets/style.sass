@@ -1,0 +1,89 @@
+!blueprint_grid_columns = 24
+!blueprint_grid_width = 30px
+!blueprint_grid_margin = 10px
+ 
+!font_color = #333
+ 
+@import compass/reset.sass
+@import compass/utilities.sass
+@import blueprint/screen.sass
+
++blueprint
+
+body
+  :background-color #FAFAFA
+  :font-size 100%
+  :color #595959
+p
+  :color #595959
+  :margin-bottom 0
+ul
+  :padding-left 1em
+header
+  p.fn 
+    :font-family "league-gothic-1","league-gothic-2", "Helvetica Neue", Arial, sans-serif
+    :font-size 5em
+    :text-transform uppercase
+    :margin-bottom 0
+    :padding 0
+    a
+      :color black
+      :text-decoration none
+  .contact
+    :position relative
+    :bottom 16px
+    .left_box
+      +column(2)
+      :font-size 0.9em
+      p
+        :text-align right
+        :margin 0
+    .right_box
+      +column(22, true)
+      :font-size 0.9em
+      a
+        :color #71848C
+      p
+        :margin 0
+table
+  :margin-bottom 0
+  td
+    :padding-left 0
+section#content
+  +column(20)
+  :margin-top 20px
+.cv_section
+  :margin-top 2em
+  h1
+    :font-family "league-gothic-1","league-gothic-2"
+    :text-transform uppercase
+    :margin 0.4em 0 0.1em
+    :clear both
+  .job, .school
+    :position relative
+    :margin-bottom 1em
+    h2
+      :float left
+      :clear both
+      :margin 0
+      :font-size 1.1em
+    p.role, p.degree
+      :clear both
+    p.date
+      :float right
+    p.location
+      :float left
+      :color #888888
+      :font-size 0.8em
+      :position relative
+      :top 6px
+      :margin-left 6px
+aside
+  +column(3, true)
+  :background-color #3E3E3E
+  :padding 5px
+  a
+    :color white
+  ul
+    li
+      :list-style none
