@@ -7,6 +7,7 @@ body
 p
   :color #595959
   :margin-bottom 0
+  :line-height 1.4em
 ul
   :padding-left 1em
 .container
@@ -41,7 +42,9 @@ table
   td
     :padding-left 0
 section#content
-  :margin-top 20px
+  :margin 20px 0
+  :width 800px
+  :float left
 .cv_section
   :margin-top 2em
   h1
@@ -49,12 +52,15 @@ section#content
     :text-transform uppercase
     :margin 0.4em 0 0.1em
     :clear both
+    :color black
+    :font-weight normal
+    :font-size 2.1em
   .job, .school
     :position relative
     :margin-bottom 1em
     h2
-      :float left
       :clear both
+      :float left
       :margin 0
       :font-size 1.1em
     p.role, p.degree
@@ -65,15 +71,12 @@ section#content
       :float left
       :color #888888
       :font-size 0.8em
-      :position relative
-      :top 6px
       :margin-left 6px
-aside
-  :display none
-  :background-color #3E3E3E
-  :padding 5px
-  a
-    :color white
+      :position relative
+      :top 3px
   ul
     li
-      :list-style none
+      :padding 4px 0
+.sidebar
+  :width 150px
+  :float left
