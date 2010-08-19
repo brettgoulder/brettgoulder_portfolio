@@ -27,16 +27,23 @@ header
     :position relative
     :bottom 16px
     .left_box
+      :float left
+      :width 64px
       :font-size 0.9em
+      :margin-right 14px
       p
         :text-align right
         :margin 0
     .right_box
       :font-size 0.9em
+      :float left
+      :width 850px
       a
         :color #71848C
       p
         :margin 0
+  .vcard
+    
 table
   :margin-bottom 0
   td
@@ -77,6 +84,13 @@ section#content
   ul
     li
       :padding 4px 0
+
 .sidebar
   :width 150px
   :float left
+  :background-color #222
+  :-webkit-transition background-color 0.2s linear
+  :-moz-transition background-color 0.2s linear
+  :-o-transition background-color 0.2s linear
+  a
+    :color #333
