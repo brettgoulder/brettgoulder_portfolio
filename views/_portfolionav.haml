@@ -1,4 +1,5 @@
 %nav
-  - @portfolio_items.each do |p|
-    %li 
-      %a{:href => portfolio_path(p), :title => p.title}= p.title
+  %ul
+    - @portfolio_items.each do |p|
+      %li 
+        %a{:href => portfolio_path(p), :title => p.title}= p.title
