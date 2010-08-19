@@ -1,6 +1,20 @@
 %header
-  %p.fn
-    %a.url{:href => "http://www.brettgoulder.com"} Brett Goulder
+  .vcard
+    %p.fn
+      %a.url{:href => "http://www.brettgoulder.com"} Brett Goulder
+    .contact
+      .left_box
+        %p mobile:
+        %p email:
+        %p address:
+      .right_box
+        %p.tel +61 (0)450 183 112
+        %p.email <a href="mailto:brett.goulder@gmail.com">brett.goulder@gmail.com</a>
+        %p.adr
+          %span.street-address B308/444 Harris St<br />
+          %span.region Ultimo, NSW
+          %span.postal-code 2007<br />
+          %span.country-name Australia
 %section#content
   %section#intro.cv_section
     %h1 Intro
@@ -45,7 +59,7 @@
       %p.description
         %ul
           %li Collected an analysed psychometric survey results from over 2000 worldwide participants
-          %li Was involved in publishing two psychometric scales in academic journals
+          %li Was involved in two psychometric scales which were published in academic journals
   %section#education.cv_section
     %h1 Education
     .school
@@ -67,3 +81,9 @@
     %h1 Awards
     %ul
       %li Ritsumeikan Asia Pacific University Scholarship A - 100% Tuition Reduction
+%aside
+  %ul
+    %li
+      %a{:href => "#"} Download PDF
+    %li
+      %a{:href => "#"} Download vCard

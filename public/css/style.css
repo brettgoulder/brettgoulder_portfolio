@@ -1,30 +1,22 @@
-/* @override http://localhost:9393/css/style.css */
+@import "reset.css";
 
-body {font-size: 62.5%; font-family: "league-gothic-1","league-gothic-2", "Helvetica Neue", Helvetica, Arial, sans-serif; background: #649A76 url(/images/background.jpg) top left repeat-x; }
-
-/* @group Typography */
+body {font-size: 62.5%; font-family: "league-gothic-1","league-gothic-2", "Helvetica Neue", Helvetica, Arial, sans-serif; background: #649A76 url(/images/background.jpg) top left repeat-x; margin: 0; padding: 0;}
 
 p { font-weight: 200;color: #F2FFF7; font: 1.8em "ff-meta-web-pro-1","ff-meta-web-pro-2", "Lucinda Grande", Verdana, sans-serif; text-shadow: #487256 1px -1px 2px;}
 a { color: white; }
 h1 { padding: 20px 0; font: 8em "league-gothic-1","league-gothic-2", "Lucinda Grande", Verdana, sans-serif; color: #F2FFF7; }
 h3 { font-size:2em; color: white;}
-header nav li a { text-decoration: none; color: #F2FFF7; }
-header nav li a:hover { text-decoration: none; color: #F2FFF7; }
-header nav li { font: 4em "league-gothic-1","league-gothic-2"; display: inline; text-transform: lowercase; margin-right: 80px; }
-header nav li.last { margin-right: 0; }
+.container { width: 950px; margin: 0 auto;}
+
+#content nav { width: 320px; float: left;}
 #content nav li { font: 5em "league-gothic-1","league-gothic-2"; list-style: none; }
 #content nav li a { color: #487256; text-decoration: none;}
+.portfolio_item { width: 630px; float: left;}
 header nav li a:hover, #content nav li a:hover { color: #333;}
 ul li { font-size: 1.8em; font: 1.8em "ff-meta-web-pro-1","ff-meta-web-pro-2", "Lucinda Grande", Verdana, sans-serif; color: white; }
-
-/* @end */
-
-/* @group Layout */
 
 #content h1 { font-size:4em; padding: 0; margin-bottom:0.1em;}
 #content a.url {font: 2em "league-gothic-1","league-gothic-2", "Lucinda Grande", Verdana, sans-serif; color:#F2FFF7; text-decoration:none;}
 #content p { margin-top: 1.5em; }
 header { position: relative; height: 140px;}
 header nav { position: absolute; top: 59px; right: 0;}
-
-/* @end */

@@ -1,24 +1,17 @@
-!blueprint_grid_columns = 24
-!blueprint_grid_width = 30px
-!blueprint_grid_margin = 10px
- 
-!font_color = #333
- 
-@import compass/reset.sass
-@import compass/utilities.sass
-@import blueprint/screen.sass
-
-+blueprint
-
 body
   :background-color #FAFAFA
   :font-size 100%
+  :font-family "Helvetica Neue", Helvetica, Arial, sans-serif
   :color #595959
+  
 p
   :color #595959
   :margin-bottom 0
 ul
   :padding-left 1em
+.container
+  :width 950px
+  :margin 0 auto
 header
   p.fn 
     :font-family "league-gothic-1","league-gothic-2", "Helvetica Neue", Arial, sans-serif
@@ -33,13 +26,11 @@ header
     :position relative
     :bottom 16px
     .left_box
-      +column(2)
       :font-size 0.9em
       p
         :text-align right
         :margin 0
     .right_box
-      +column(22, true)
       :font-size 0.9em
       a
         :color #71848C
@@ -50,7 +41,6 @@ table
   td
     :padding-left 0
 section#content
-  +column(20)
   :margin-top 20px
 .cv_section
   :margin-top 2em
@@ -79,7 +69,6 @@ section#content
       :top 6px
       :margin-left 6px
 aside
-  +column(3, true)
   :display none
   :background-color #3E3E3E
   :padding 5px

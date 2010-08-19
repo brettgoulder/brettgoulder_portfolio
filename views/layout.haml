@@ -4,8 +4,6 @@
     %meta{'charset' => 'UTF-8'}
     %link{:rel => 'license', :href => 'http://creativecommons.org/licenses/by-nc/2.5/au'}
     %link{:rel => 'shortcut icon', :href => '/favicon.ico'}
-    %link{:rel => "stylesheet", :href => "/css/print.css", :type => "text/css", :media => "print"}
-    %link{:rel => "stylesheet", :href => "/css/screen.css", :type => "text/css", :media => "screen"}
     %link{:rel => "stylesheet", :href => "/css/style.css", :type => "text/css", :media => "screen"}
     %script{:src => 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js', :type => 'text/javascript'}
     /[if IE]
@@ -15,15 +13,8 @@
   %body{:class => @body_class || 'hello'}
     .container-outer
       .container
-        %header{:class => 'spam-24 last'}
-          %h1{:class => 'span-8'}
+        %header
+          %h1
             Brett Goulder
-          %nav{:class => 'span-11 prepend-4 last'}
-            %li 
-              %a{:href => "/"} Home
-            %li
-              %a{:href => "/portfolio"} Portfolio
-            %li{:class => 'last'}
-              %a{:href => "/contact" } Contact
-        %section#content{:class => 'clear'}
+        %section#content
           = yield

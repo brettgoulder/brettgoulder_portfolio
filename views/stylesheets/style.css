@@ -1,0 +1,84 @@
+body {
+  background-color: #fafafa;
+  font-size: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #595959; }
+
+p {
+  color: #595959;
+  margin-bottom: 0; }
+
+ul {
+  padding-left: 1em; }
+
+.container {
+  width: 950px;
+  margin: 0 auto; }
+
+header p.fn {
+  font-family: "league-gothic-1", "league-gothic-2", "Helvetica Neue", Arial, sans-serif;
+  font-size: 5em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  padding: 0; }
+  header p.fn a {
+    color: black;
+    text-decoration: none; }
+header .contact {
+  position: relative;
+  bottom: 16px; }
+  header .contact .left_box {
+    font-size: 0.9em; }
+    header .contact .left_box p {
+      text-align: right;
+      margin: 0; }
+  header .contact .right_box {
+    font-size: 0.9em; }
+    header .contact .right_box a {
+      color: #71848c; }
+    header .contact .right_box p {
+      margin: 0; }
+
+table {
+  margin-bottom: 0; }
+  table td {
+    padding-left: 0; }
+
+section#content {
+  margin-top: 20px; }
+
+.cv_section {
+  margin-top: 2em; }
+  .cv_section h1 {
+    font-family: "league-gothic-1", "league-gothic-2";
+    text-transform: uppercase;
+    margin: 0.4em 0 0.1em;
+    clear: both; }
+  .cv_section .job, .cv_section .school {
+    position: relative;
+    margin-bottom: 1em; }
+    .cv_section .job h2, .cv_section .school h2 {
+      float: left;
+      clear: both;
+      margin: 0;
+      font-size: 1.1em; }
+    .cv_section .job p.role, .cv_section .job p.degree, .cv_section .school p.role, .cv_section .school p.degree {
+      clear: both; }
+    .cv_section .job p.date, .cv_section .school p.date {
+      float: right; }
+    .cv_section .job p.location, .cv_section .school p.location {
+      float: left;
+      color: #888888;
+      font-size: 0.8em;
+      position: relative;
+      top: 6px;
+      margin-left: 6px; }
+
+aside {
+  display: none;
+  background-color: #3e3e3e;
+  padding: 5px; }
+  aside a {
+    color: white; }
+  aside ul li {
+    list-style: none; }
