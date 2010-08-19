@@ -8,15 +8,15 @@ h1 { padding: 20px 0; font: 8em "league-gothic-1","league-gothic-2", "Lucinda Gr
 h3 { font-size:2em; color: white;}
 .container { width: 950px; margin: 0 auto;}
 
+header { position: relative; height: 140px;}
+header nav li a:hover, #content nav li a:hover { color: #333;}
 #content nav { width: 320px; float: left;}
 #content nav li { font: 5em "league-gothic-1","league-gothic-2"; list-style: none; }
 #content nav li a { color: #487256; text-decoration: none;}
 .portfolio_item { width: 630px; float: left;}
-header nav li a:hover, #content nav li a:hover { color: #333;}
 ul li { font-size: 1.8em; font: 1.8em "ff-meta-web-pro-1","ff-meta-web-pro-2", "Lucinda Grande", Verdana, sans-serif; color: white; }
 
 #content h1 { font-size:4em; padding: 0; margin-bottom:0.1em;}
 #content a.url {font: 2em "league-gothic-1","league-gothic-2", "Lucinda Grande", Verdana, sans-serif; color:#F2FFF7; text-decoration:none;}
 #content p { margin-top: 1.5em; }
-header { position: relative; height: 140px;}
-header nav { position: absolute; top: 59px; right: 0;}
+
