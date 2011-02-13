@@ -6,16 +6,14 @@
     %link{:rel => 'shortcut icon', :href => '/favicon.ico'}
     %link{:rel => "stylesheet", :href => "/css/style.css", :type => "text/css", :media => "screen"}
     %script{:src => 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js', :type => 'text/javascript'}
-    /[if IE]
-      %script{:src => 'http://html5shiv.googlecode.com/svn/trunk/html5.js', :type => 'text/javascript'}
-    = partial "typekit"
+    %script{:src => '/js/vendor/modernizr-1.6.min.js', :type => 'text/javascript'}
+    -# = partial "typekit"
     %title= @title || "Brett Goulder"
   %body{:class => @body_class || 'hello'}
-    .container-outer
-      .container
-        %header
-          %a{:href => '/'}
-            %h1
-              Brett Goulder
-        %section#content
-          = yield
+    .container
+      %header
+        %a{:href => '/'}
+          %h1
+            Brett Goulder
+      %section#content
+        = yield

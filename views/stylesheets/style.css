@@ -15,6 +15,9 @@ ul {
   width: 950px;
   margin: 0 auto; }
 
+header a {
+  text-decoration: none;
+}
 header p.fn {
   font-family: "league-gothic-1", "league-gothic-2", "Helvetica Neue", Arial, sans-serif;
   font-size: 5em;

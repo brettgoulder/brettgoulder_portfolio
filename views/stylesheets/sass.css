@@ -1,0 +1,103 @@
+body
+  background-color: #fafafa
+  font-size: 100%
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+  color: #595959
+
+p
+  color: #595959
+  margin-bottom: 0
+  line-height: 1.4em
+
+ul
+  padding-left: 1em
+
+.container
+  width: 950px
+  margin: 0 auto
+
+header
+  a
+    text-decoration: none
+  p.fn
+    font-family: "league-gothic-1", "league-gothic-2", "Helvetica Neue", Arial, sans-serif
+    font-size: 5em
+    text-transform: uppercase
+    margin-bottom: 0
+    padding: 0
+    a
+      color: black
+      text-decoration: none
+  .contact
+    position: relative
+    bottom: 16px
+    .left_box
+      float: left
+      width: 64px
+      font-size: 0.9em
+      margin-right: 14px
+      p
+        text-align: right
+        margin: 0
+    .right_box
+      font-size: 0.9em
+      float: left
+      width: 850px
+      a
+        color: #71848c
+      p
+        margin: 0
+  .vcard
+
+table
+  margin-bottom: 0
+  td
+    padding-left: 0
+
+section#content
+  margin: 20px 0
+  width: 800px
+  float: left
+
+.cv_section
+  margin-top: 2em
+  h1
+    font-family: "league-gothic-1", "league-gothic-2"
+    text-transform: uppercase
+    margin: 0.4em 0 0.1em
+    clear: both
+    color: black
+    font-weight: normal
+    font-size: 2.1em
+  .job, .school
+    position: relative
+    margin-bottom: 1em
+    h2
+      clear: both
+      float: left
+      margin: 0
+      font-size: 1.1em
+    p.role, p.degree
+      clear: both
+    p.date
+      float: right
+    p.location
+      float: left
+      color: #888888
+      font-size: 0.8em
+      margin-left: 6px
+      position: relative
+      top: 3px
+  ul
+    li
+      padding: 4px 0
+
+.sidebar
+  width: 150px
+  float: left
+  background-color: #222222
+  -webkit-transition: background-color 0.2s linear
+  -moz-transition: background-color 0.2s linear
+  -o-transition: background-color 0.2s linear
+  a
+    color: #333333

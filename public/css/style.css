@@ -9,6 +9,7 @@ h3 { font-size:2em; color: white;}
 .container { width: 950px; margin: 0 auto;}
 
 header { position: relative; height: 140px;}
+header a { text-decoration: none; }
 header nav li a:hover, #content nav li a:hover { color: #333;}
 #content nav { width: 320px; float: left;}
 #content nav li { font: 5em "league-gothic-1","league-gothic-2"; list-style: none; }
